@@ -4,6 +4,10 @@ import Clases_Abstractas.GestorInventario;
 
 public class InventarioDigital extends GestorInventario {
 
+    public InventarioDigital(int cantidad) {
+        super(cantidad);
+    }
+
     @Override
     public void añadirProducto(String producto, int cantidad) {
         System.out.println("Añadiendo " + cantidad + " unidades de " + producto + " al inventario digital.");

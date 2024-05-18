@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a55c4c-8904-4410-aae3-3960404c0cfe" name="Changes" comment="Adding Examples Polimorfism and Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/Clases_Abstractas/GestorInventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioDigital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjemploAbstraccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_Abstractas/ISistemaPago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_Abstractas/SistemaPago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioVIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/PagoPayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/PagoTarjetaCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/PagoTransferenciaBancaria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases_Abstractas/GestorInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases_Abstractas/GestorInventario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioDigital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioFisico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjemploAbstraccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjemploAbstraccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjemploPolimorfismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjemploPolimorfismo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -138,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716054021260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding Examples Polimorfism and Inheritance">
+      <option name="closed" value="true" />
+      <created>1716056631560</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716056631560</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
