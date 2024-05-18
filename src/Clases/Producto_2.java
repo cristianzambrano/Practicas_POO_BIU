@@ -1,6 +1,6 @@
 package Clases;
 
-public class Producto {
+public class Producto_2 {
     private int id;
     private String nombre;
     private String descripcion;
@@ -8,7 +8,7 @@ public class Producto {
     private double tasaIVA;
     private int stock;
 
-    public Producto(int id, String nombre, String descripcion, double precio, int stock, double tasaIVA) {
+    public Producto_2(int id, String nombre, String descripcion, double precio, int stock, double tasaIVA) {
         this.id = id;
         this.nombre = nombre;
         this.descripcion = descripcion;

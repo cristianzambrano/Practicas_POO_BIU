@@ -1,12 +1,12 @@
-import Clases.Producto;
+import Clases.Producto_2;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        Producto computadoraHP;
-        computadoraHP = new Producto(1,"Computadora", "Computadora HP Corei5, 12GB Ram",
+        Producto_2 computadoraHP;
+        computadoraHP = new Producto_2(1,"Computadora", "Computadora HP Corei5, 12GB Ram",
                 1000, 20, 12);
 
         for (int i = 1; i <= 50; i++) {

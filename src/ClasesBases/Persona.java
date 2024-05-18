@@ -1,4 +1,4 @@
-package Clases;
+package ClasesBases;
 
 public class Persona {
     // Atributos privados de la clase Persona

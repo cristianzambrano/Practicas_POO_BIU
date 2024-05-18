@@ -1,4 +1,4 @@
-package Clases;
+package ClasesBases;
 
 public class SeleccionFutbol
 {
@@ -25,5 +25,10 @@ public class SeleccionFutbol
     public void Viajar()
     {
         System.out.println("Viajar");
+    }
+
+    public String getNombres()
+    {
+       return (this.Nombre + " " + this.Apellidos);
     }
 }
