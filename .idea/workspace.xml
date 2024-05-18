@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a55c4c-8904-4410-aae3-3960404c0cfe" name="Changes" comment="Adding README">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjHerencia/Entrenador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjHerencia/Jugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjHerencia/Masajista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjPolimorfismo/CarritoCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjPolimorfismo/ProductoDigital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjPolimorfismo/ProductoFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjemploHerencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjemploPolimorfismo.java" afterDir="false" />
+    <list default="true" id="d0a55c4c-8904-4410-aae3-3960404c0cfe" name="Changes" comment="Adding Examples Polimorfism and Inheritance">
+      <change afterPath="$PROJECT_DIR$/src/Clases_Abstractas/GestorInventario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioDigital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EjemploAbstraccion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases/Futbolista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesBases/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/Producto_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases/SeleccionFutbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesBases/SeleccionFutbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClasesBases/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesBases/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +42,18 @@
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2geJNgvtmod6bofGbu1o6Htj4Wg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EjemploAbstraccion.executor": "Run",
+    "Application.EjemploHerencia.executor": "Run",
+    "Application.EjemploPolimorfismo.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -81,7 +75,14 @@
       <recent name="Clases" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploPolimorfismo">
+  <component name="RunManager" selected="Application.EjemploAbstraccion">
+    <configuration name="EjemploAbstraccion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploAbstraccion" />
+      <module name="Practicas_POO_BIU" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjemploHerencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploHerencia" />
       <module name="Practicas_POO_BIU" />
@@ -98,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploAbstraccion" />
         <item itemvalue="Application.EjemploPolimorfismo" />
         <item itemvalue="Application.EjemploHerencia" />
       </list>
@@ -128,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716052246794</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding Examples Polimorfism and Inheritance">
+      <option name="closed" value="true" />
+      <created>1716054021260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716054021260</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Adding README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding README" />
+    <MESSAGE value="Adding Examples Polimorfism and Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Examples Polimorfism and Inheritance" />
   </component>
 </project>
