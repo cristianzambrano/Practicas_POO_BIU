@@ -18,6 +18,29 @@ public class Producto_2 {
     }
 
 
+    public String getNombre(){
+        return this.nombre;
+    }
+    public String getDescripcion(){
+        return this.descripcion;
+    }
+
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+
+    public void setDescripcion(String descripcion){
+        this.descripcion = descripcion;
+    }
+
+    public void setPrecio(double precio){
+        if (precio >= 0) {
+            this.precio -= precio;
+        } else {
+            throw new IllegalArgumentException("El precio no puede ser negativo");
+        }
+    }
+
     public double calcularIVAEnDolares() {
         return precio * tasaIVA / 100;
     }

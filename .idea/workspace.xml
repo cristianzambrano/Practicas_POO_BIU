@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a55c4c-8904-4410-aae3-3960404c0cfe" name="Changes" comment="Adding Examples Polimorfism and Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/Clases_Abstractas/ISistemaPago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_Abstractas/SistemaPago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioVIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/PagoPayPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/PagoTarjetaCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/PagoTransferenciaBancaria.java" afterDir="false" />
+    <list default="true" id="d0a55c4c-8904-4410-aae3-3960404c0cfe" name="Changes" comment="Adding Examples Abstraction">
+      <change afterPath="$PROJECT_DIR$/src/Clases_Encapsulamiento/CuentaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_Encapsulamiento/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EjemploEncapsulamiento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases_Abstractas/GestorInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases_Abstractas/GestorInventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioDigital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases_EjAbstraccion/InventarioFisico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EjemploAbstraccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjemploAbstraccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EjemploPolimorfismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjemploPolimorfismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/Producto_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/Producto_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "cristianzambrano"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cristianzambrano&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/cristianzambrano/Practicas_POO_BIU.git",
-    "accountId": "c925f45f-aa81-42ed-bf19-8d698ebd96a2"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cristianzambrano/Practicas_POO_BIU.git&quot;,
+    &quot;accountId&quot;: &quot;c925f45f-aa81-42ed-bf19-8d698ebd96a2&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2geJNgvtmod6bofGbu1o6Htj4Wg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,12 +53,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.EjemploAbstraccion.executor": "Run",
+    "Application.EjemploEncapsulamiento.executor": "Run",
     "Application.EjemploHerencia.executor": "Run",
     "Application.EjemploPolimorfismo.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/DELL/IdeaProjects/Practicas_POO_BIU/src/Clases",
     "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/Practicas_POO_BIU/src/Main.java"
@@ -83,9 +78,16 @@
       <recent name="Clases" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploAbstraccion">
+  <component name="RunManager" selected="Application.EjemploEncapsulamiento">
     <configuration name="EjemploAbstraccion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploAbstraccion" />
+      <module name="Practicas_POO_BIU" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploEncapsulamiento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploEncapsulamiento" />
       <module name="Practicas_POO_BIU" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploEncapsulamiento" />
         <item itemvalue="Application.EjemploAbstraccion" />
         <item itemvalue="Application.EjemploPolimorfismo" />
         <item itemvalue="Application.EjemploHerencia" />
@@ -154,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716056631560</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding Examples Abstraction">
+      <option name="closed" value="true" />
+      <created>1716058716769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716058716769</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +183,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Adding README" />
     <MESSAGE value="Adding Examples Polimorfism and Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Examples Polimorfism and Inheritance" />
+    <MESSAGE value="Adding Examples Abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Examples Abstraction" />
   </component>
 </project>
