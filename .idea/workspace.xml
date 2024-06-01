@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a55c4c-8904-4410-aae3-3960404c0cfe" name="Changes" comment="Adding Examples Encapsulamiento">
-      <change afterPath="$PROJECT_DIR$/src/Patrones/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patrones/BankExpense.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d0a55c4c-8904-4410-aae3-3960404c0cfe" name="Changes" comment="Adding Examples Patrones de Diseño">
+      <change afterPath="$PROJECT_DIR$/src/Clases_EjPolimorfismo/ProductoVIP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EjemploPatrones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjemploPatrones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patrones/ConfiguracionSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patrones/ConfiguracionSistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patrones/ProductoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patrones/ProductoFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +78,7 @@
       <recent name="C:\Users\DELL\IdeaProjects\Practicas_POO_BIU\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Clases_EjPolimorfismo" />
       <recent name="ClasesBases" />
       <recent name="" />
       <recent name="Clases" />
@@ -186,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716659293762</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding Examples Patrones de Diseño">
+      <option name="closed" value="true" />
+      <created>1717259966709</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717259966709</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +215,7 @@
     <MESSAGE value="Adding Examples Polimorfism and Inheritance" />
     <MESSAGE value="Adding Examples Abstraction" />
     <MESSAGE value="Adding Examples Encapsulamiento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Examples Encapsulamiento" />
+    <MESSAGE value="Adding Examples Patrones de Diseño" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Examples Patrones de Diseño" />
   </component>
 </project>

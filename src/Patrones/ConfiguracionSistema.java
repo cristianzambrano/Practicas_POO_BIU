@@ -14,12 +14,12 @@ public class ConfiguracionSistema {
         parametrosConexionBD = new HashMap<>();
         parametrosConexionBD.put("host", "localhost");
         parametrosConexionBD.put("database", "ecommerce");
-        parametrosConexionBD.put("user", "ecommerce_user");
+        parametrosConexionBD.put("user", "cristian");
         parametrosConexionBD.put("password", "ecommerce_password");
 
         configuracionesUI = new HashMap<>();
         configuracionesUI.put("tema", "oscuro");
-        configuracionesUI.put("idioma", "español");
+        configuracionesUI.put("idioma", "inglés");
     }
 
     public static ConfiguracionSistema getInstance() {
@@ -42,6 +42,12 @@ public class ConfiguracionSistema {
             return parametrosConexionBD.get(nombreParametro);
         } else {
             return "";
+        }
+    }
+
+    public void setParamBD(String nombreParametro, String valor) {
+        if (parametrosConexionBD.containsKey(nombreParametro)) {
+            parametrosConexionBD.replace(nombreParametro, valor);
         }
     }
 
