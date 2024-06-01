@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a55c4c-8904-4410-aae3-3960404c0cfe" name="Changes" comment="Adding Examples Encapsulamiento">
-      <change afterPath="$PROJECT_DIR$/src/EjemploPatrones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patrones/ConfiguracionSistema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patrones/ProductoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patrones/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patrones/BankExpense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EjemploPolimorfismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjemploPolimorfismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjemploPatrones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjemploPatrones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,9 @@
     &quot;accountId&quot;: &quot;c925f45f-aa81-42ed-bf19-8d698ebd96a2&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -50,23 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EjemploAbstraccion.executor": "Run",
-    "Application.EjemploEncapsulamiento.executor": "Run",
-    "Application.EjemploHerencia.executor": "Run",
-    "Application.EjemploPatrones.executor": "Run",
-    "Application.EjemploPolimorfismo.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/Practicas_POO_BIU/src/Clases",
-    "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/Practicas_POO_BIU/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EjemploAbstraccion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploEncapsulamiento.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploHerencia.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploPatrones.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploPolimorfismo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/IdeaProjects/Practicas_POO_BIU/src/Clases&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL/IdeaProjects/Practicas_POO_BIU/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\IdeaProjects\Practicas_POO_BIU\src\Clases" />
