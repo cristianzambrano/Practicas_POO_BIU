@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a55c4c-8904-4410-aae3-3960404c0cfe" name="Changes" comment="Adding Examples Abstraction">
-      <change afterPath="$PROJECT_DIR$/src/Clases_Encapsulamiento/CuentaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases_Encapsulamiento/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjemploEncapsulamiento.java" afterDir="false" />
+    <list default="true" id="d0a55c4c-8904-4410-aae3-3960404c0cfe" name="Changes" comment="Adding Examples Encapsulamiento">
+      <change afterPath="$PROJECT_DIR$/src/EjemploPatrones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patrones/ConfiguracionSistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patrones/ProductoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clases/Producto_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clases/Producto_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjemploPolimorfismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjemploPolimorfismo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "Application.EjemploAbstraccion.executor": "Run",
     "Application.EjemploEncapsulamiento.executor": "Run",
     "Application.EjemploHerencia.executor": "Run",
+    "Application.EjemploPatrones.executor": "Run",
     "Application.EjemploPolimorfismo.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -78,7 +79,7 @@
       <recent name="Clases" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploEncapsulamiento">
+  <component name="RunManager" selected="Application.EjemploPatrones">
     <configuration name="EjemploAbstraccion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploAbstraccion" />
       <module name="Practicas_POO_BIU" />
@@ -100,6 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploPatrones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploPatrones" />
+      <module name="Practicas_POO_BIU" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjemploPolimorfismo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploPolimorfismo" />
       <module name="Practicas_POO_BIU" />
@@ -109,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploPatrones" />
         <item itemvalue="Application.EjemploEncapsulamiento" />
         <item itemvalue="Application.EjemploAbstraccion" />
         <item itemvalue="Application.EjemploPolimorfismo" />
@@ -165,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716058716769</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding Examples Encapsulamiento">
+      <option name="closed" value="true" />
+      <created>1716659293762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716659293762</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +201,7 @@
     <MESSAGE value="Adding README" />
     <MESSAGE value="Adding Examples Polimorfism and Inheritance" />
     <MESSAGE value="Adding Examples Abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Examples Abstraction" />
+    <MESSAGE value="Adding Examples Encapsulamiento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Examples Encapsulamiento" />
   </component>
 </project>
