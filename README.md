@@ -59,10 +59,6 @@ Cada concepto de POO está ejemplificado en archivos principales (`Main`) que de
 
 Este proyecto está diseñado como una guía para aprender los conceptos básicos de POO en Java. Si tienes sugerencias o mejoras, no dudes en enviar un pull request o crear una issue para contribuir al proyecto.
 
-## Autor
-
-Desarrollado como parte de un curso de Programación Orientada a Objetos (POO).
-
 ---
 
 ¡Explora el código y aprende los conceptos de POO de manera práctica!
