@@ -1,9 +1,11 @@
 
+import Interfaces.PagoEfectivo;
 import Interfaces.PagoPayPal;
 import Interfaces.PagoTarjeta;
 import Interfaces.ProcesoPago;
 
-public class EjemploInterfaces {
+public class
+EjemploInterfaces {
 
     public static void main(String[] args) {
 
@@ -20,6 +22,16 @@ public class EjemploInterfaces {
         if (pagoPayPal.verificarPago()) {
             pagoPayPal.confirmarPago();
         }
+
+        System.out.println();
+
+        ProcesoPago pagoEfectivo = new PagoEfectivo();
+        pagoEfectivo.iniciarPago(250.75);
+        if (pagoEfectivo.verificarPago()) {
+            pagoEfectivo.confirmarPago();
+        }
+
+        System.out.println();
     }
 }
 

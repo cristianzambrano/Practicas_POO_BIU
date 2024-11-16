@@ -3,7 +3,6 @@ package Interfaces;
 public class PagoTarjeta implements ProcesoPago {
     private double monto;
 
-
     @Override
     public void iniciarPago(double monto) {
         this.monto = monto;
